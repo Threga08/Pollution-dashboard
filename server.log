@@ -1,0 +1,42 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 952-417-565
+127.0.0.1 - - [04/Apr/2026 11:16:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 11:16:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 11:16:51] "GET /static/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 11:17:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 11:17:13] "GET /static/style.css?v=5 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 11:17:13] "GET /static/script.js?v=5 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 11:17:25] "GET /get_aqi_by_coords?lat=10.673625686672281&lon=77.02186534536011 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 11:17:31] "GET /get_aqi_by_coords?lat=10.673625686672281&lon=77.02186534536011 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 11:17:36] "GET /get_aqi_by_coords?lat=10.673625686672281&lon=77.02186534536011 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 11:17:42] "GET /get_aqi_by_coords?lat=10.673625686672281&lon=77.02186534536011 HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 11:19:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/Apr/2026 11:19:34] "GET /static/style.css?v=5 HTTP/1.1" 304 -
+127.0.0.1 - - [04/Apr/2026 11:19:34] "GET /static/script.js?v=5 HTTP/1.1" 304 -
+127.0.0.1 - - [04/Apr/2026 11:19:35] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [04/Apr/2026 11:19:46] "GET /get_aqi_by_coords?lat=10.673625686672281&lon=77.02186534536011 HTTP/1.1" 200 -
+ * Detected change in 'c:\\Users\\THREGA\\Downloads\\pollution_dashboard\\app.py', reloading
+REVERSE GEOCODE: lat=10.673625686672281, lon=77.02186534536011 city=Pollachi, state=Tamil Nadu, country=India
+AIR QUALITY RESPONSE: {'time': '2026-04-04T05:00', 'interval': 3600, 'pm10': 16.5, 'pm2_5': 15.1, 'carbon_monoxide': 223.0, 'nitrogen_dioxide': 2.5, 'sulphur_dioxide': 2.2, 'ozone': 130.0, 'us_aqi': 64}
+WEATHER RESPONSE: {'time': '2026-04-04T05:45', 'interval': 900, 'temperature_2m': 31.4, 'relative_humidity_2m': 56, 'wind_speed_10m': 4.54, 'surface_pressure': 977.4}
+REVERSE GEOCODE: lat=10.673625686672281, lon=77.02186534536011 city=Pollachi, state=Tamil Nadu, country=India
+AIR QUALITY RESPONSE: {'time': '2026-04-04T05:00', 'interval': 3600, 'pm10': 16.5, 'pm2_5': 15.1, 'carbon_monoxide': 223.0, 'nitrogen_dioxide': 2.5, 'sulphur_dioxide': 2.2, 'ozone': 130.0, 'us_aqi': 64}
+WEATHER RESPONSE: {'time': '2026-04-04T05:45', 'interval': 900, 'temperature_2m': 31.4, 'relative_humidity_2m': 56, 'wind_speed_10m': 4.54, 'surface_pressure': 977.4}
+REVERSE GEOCODE: lat=10.673625686672281, lon=77.02186534536011 city=Pollachi, state=Tamil Nadu, country=India
+AIR QUALITY RESPONSE: {'time': '2026-04-04T05:00', 'interval': 3600, 'pm10': 16.5, 'pm2_5': 15.1, 'carbon_monoxide': 223.0, 'nitrogen_dioxide': 2.5, 'sulphur_dioxide': 2.2, 'ozone': 130.0, 'us_aqi': 64}
+WEATHER RESPONSE: {'time': '2026-04-04T05:45', 'interval': 900, 'temperature_2m': 31.4, 'relative_humidity_2m': 56, 'wind_speed_10m': 4.54, 'surface_pressure': 977.4}
+REVERSE GEOCODE: lat=10.673625686672281, lon=77.02186534536011 city=Pollachi, state=Tamil Nadu, country=India
+AIR QUALITY RESPONSE: {'time': '2026-04-04T05:00', 'interval': 3600, 'pm10': 16.5, 'pm2_5': 15.1, 'carbon_monoxide': 223.0, 'nitrogen_dioxide': 2.5, 'sulphur_dioxide': 2.2, 'ozone': 130.0, 'us_aqi': 64}
+WEATHER RESPONSE: {'time': '2026-04-04T05:45', 'interval': 900, 'temperature_2m': 31.4, 'relative_humidity_2m': 56, 'wind_speed_10m': 4.54, 'surface_pressure': 977.4}
+REVERSE GEOCODE: lat=10.673625686672281, lon=77.02186534536011 city=Pollachi, state=Tamil Nadu, country=India
+AIR QUALITY RESPONSE: {'time': '2026-04-04T05:00', 'interval': 3600, 'pm10': 16.5, 'pm2_5': 15.1, 'carbon_monoxide': 223.0, 'nitrogen_dioxide': 2.5, 'sulphur_dioxide': 2.2, 'ozone': 130.0, 'us_aqi': 64}
+WEATHER RESPONSE: {'time': '2026-04-04T05:45', 'interval': 900, 'temperature_2m': 31.4, 'relative_humidity_2m': 56, 'wind_speed_10m': 4.54, 'surface_pressure': 977.4}
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 952-417-565
